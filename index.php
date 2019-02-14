@@ -27,14 +27,14 @@ if($message['type']=='text')
 		
 		
 		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Halo'
-									)
-							)
-						);
+		'replyToken' => $replyToken,														
+		'messages' => array(
+		array(
+		'type' => 'text',					
+		'text' => 'Halo'
+			)
+		)
+	);
 				
 	}
 	
@@ -47,7 +47,7 @@ if($message['type']=='text')
          'messages' => array(
 								array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'ADMIN COSS',
   'template' => 
   array (
     'type' => 'carousel',
